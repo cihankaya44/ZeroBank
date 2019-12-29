@@ -41,6 +41,16 @@ public class AccountActivityStep {
         Assert.assertEquals(string, Driver.get().getTitle());
         BrowserUtils.wait(5);
     }
+    @When("User clicks at the account activity submodule")
+    public void user_clicks_at_the_account_activity_submodule() {
+
+    }
+
+    @When("Option Should be {string}")
+    public void option_Should_be(String string) {
+
+    }
+
 
 
 }
